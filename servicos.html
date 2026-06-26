@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Serviços e Valores | Mr. Marinho Barbearia</title>
+    <meta name="description" content="Conheça os serviços exclusivos da Barbearia Mr. Marinho: Cortes clássicos, fade moderno, barboterapia com toalha quente e experiências premium de grooming.">
+    <meta name="keywords" content="serviços barbearia, preço corte de cabelo, toalha quente, barboterapia, grooming masculino, mr marinho serviços">
+    <meta name="author" content="Mr. Marinho">
+    <meta property="og:title" content="Serviços | Mr. Marinho Barbearia">
+    <meta property="og:description" content="Tradição e precisão em cada detalhe. Escolha a experiência que melhor se adapta ao seu estilo.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="nav-brand" aria-label="Home Mr. Marinho">
+            <img src="imgs/logo.svg" alt="Logo Mr. Marinho">
+            Mr. Marinho
+        </a>
+        
+        <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+        
+        <nav class="nav-links" aria-label="Navegação Principal">
+            <a href="index.html">Início</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="servicos.html" class="active">Serviços</a>
+            <a href="https://wa.me/00000000000" target="_blank" class="btn btn-primary btn-nav">Agendar</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <header class="page-header animate-on-scroll">
+            <h1 class="page-title font-display">Invista na sua imagem</h1>
+            <p class="page-subtitle">
+                Cada serviço é realizado com tempo e precisão, para garantir um resultado impecável. Escolha a experiência que melhor se adapta ao que procura.
+            </p>
+        </header>
+
+        <!-- Destaque: Novidade -->
+        <section class="service-card animate-on-scroll delay-100" style="margin-bottom: var(--space-md); padding: var(--space-md) var(--space-lg); border: 1px solid var(--primary); position: relative; overflow: hidden;" aria-label="Serviço em Destaque">
+            <!-- Efeito sutil de brilho no fundo do card -->
+            <div style="position: absolute; top: -50px; right: -50px; width: 150px; height: 150px; background: var(--primary); filter: blur(60px); opacity: 0.15;"></div>
+            
+            <header class="service-card-title font-display" style="margin-bottom: var(--space-sm); color: var(--primary);">
+                <div style="display: flex; align-items: center; gap: 8px; font-size: 20px;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                    </svg>
+                    Estética
+                </div>
+            </header>
+            
+            <div class="service-list">
+                <div class="service-item" style="border-bottom: none; padding-bottom: 0; align-items: center;">
+                    <div class="service-info">
+                        <h3 style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 20px; margin-bottom: 4px;">
+                            Depilação a Laser <span class="badge-new" style="font-size: 11px; padding: 3px 8px;">Novidade</span>
+                        </h3>
+                        <p style="font-size: 15px; max-width: 600px;">A mais alta tecnologia em depilação a laser. Eliminação duradoura de pelos com máximo conforto e resultados definitivos desde a primeira sessão.</p>
+                    </div>
+                    <div class="service-price" style="font-size: 18px;" aria-label="Preço: Sob Consulta">Sob Consulta</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-grid" aria-label="Lista de Serviços">
+            <!-- Cabelo -->
+            <article class="service-card animate-on-scroll delay-100">
+                <h2 class="service-card-title font-display">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                        <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                        <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+                    </svg>
+                    Cabelo
+                </h2>
+                <div class="service-list">
+                    <div class="service-item">
+                        <div class="service-info">
+                            <h3>Corte Clássico</h3>
+                            <p>O estilo intemporal. Tesoura ou máquina, sempre com um acabamento impecável que respeita a forma do seu rosto.</p>
+                        </div>
+                        <div class="service-price" aria-label="Preço: 80 euros">80€</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-info">
+                            <h3>Fade Moderno</h3>
+                            <p>Degradê perfeito e ao detalhe. Ideal para um visual limpo e contemporâneo.</p>
+                        </div>
+                        <div class="service-price" aria-label="Preço: 90 euros">90€</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-info">
+                            <h3>Acabamento e Manutenção</h3>
+                            <p>Apenas um alinhamento rápido de contornos e nuca para manter o corte fresco por mais tempo.</p>
+                        </div>
+                        <div class="service-price" aria-label="Preço: 40 euros">40€</div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Barba -->
+            <article class="service-card animate-on-scroll delay-200">
+                <h2 class="service-card-title font-display">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M12 2a3 3 0 0 0-3 3v2H6a2 2 0 0 0-2 2v2c0 4.42 3.58 8 8 8s8-3.58 8-8V9a2 2 0 0 0-2-2h-3V5a3 3 0 0 0-3-3Z"></path>
+                    </svg>
+                    Barba
+                </h2>
+                <div class="service-list">
+                    <div class="service-item">
+                        <div class="service-info">
+                            <h3>Ritual Toalha Quente</h3>
+                            <p>O nosso serviço premium. Barboterapia relaxante com óleos essenciais para hidratar a pele e amaciar o fio.</p>
+                        </div>
+                        <div class="service-price" aria-label="Preço: 70 euros">70€</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-info">
+                            <h3>Aparo e Desenho</h3>
+                            <p>Modelagem à máquina e tesoura para dar estrutura e volume à sua barba.</p>
+                        </div>
+                        <div class="service-price" aria-label="Preço: 50 euros">50€</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-info">
+                            <h3>Camuflagem</h3>
+                            <p>Disfarce natural de fios brancos, mantendo uma aparência autêntica e rejuvenescida.</p>
+                        </div>
+                        <div class="service-price" aria-label="Preço: 60 euros">60€</div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Experiências -->
+        <section class="service-card animate-on-scroll delay-300" style="margin-bottom: var(--space-xl);" aria-label="Combos e Experiências">
+            <header class="service-card-title font-display" style="justify-content: space-between; width: 100%;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    Experiências
+                </div>
+                <a href="https://wa.me/00000000000" target="_blank" class="btn btn-primary">Agendar Experiência</a>
+            </header>
+            
+            <div class="services-grid" style="margin-bottom: 0;">
+                <article class="service-card" style="background-color: var(--surface-2); border: none;">
+                    <div class="service-info mb-sm">
+                        <h3 class="text-gold" style="font-size: 20px;">O Cavalheiro</h3>
+                        <p>Corte Clássico + Ritual Toalha Quente + Lavagem Especial.</p>
+                    </div>
+                    <div class="service-price" style="font-size: 18px;" aria-label="Preço: 140 euros">140€</div>
+                </article>
+                
+                <article class="service-card" style="background-color: var(--surface-2); border: none;">
+                    <div class="service-info mb-sm">
+                        <h3 class="text-gold" style="font-size: 20px;">O Executivo</h3>
+                        <p>Corte + Barba Express + Hidratação Facial + Bebida Premium.</p>
+                    </div>
+                    <div class="service-price" style="font-size: 18px;" aria-label="Preço: 180 euros">180€</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Booking Steps -->
+        <section class="container animate-on-scroll" style="margin-bottom: var(--space-xl); text-align: center;">
+            <h2 class="font-display mb-md" style="font-size: 32px; color: var(--primary);">Como agendar a sua visita</h2>
+            <div class="feature-grid">
+                <div class="feature-card delay-100">
+                    <div class="feature-icon" style="font-size: 24px; font-weight: bold;">1</div>
+                    <h3 class="mb-sm text-main">Escolha o Serviço</h3>
+                    <p class="text-muted text-sm">Navegue pelas nossas opções e veja o que melhor se adapta a si hoje.</p>
+                </div>
+                <div class="feature-card delay-200">
+                    <div class="feature-icon" style="font-size: 24px; font-weight: bold;">2</div>
+                    <h3 class="mb-sm text-main">Envie-nos mensagem</h3>
+                    <p class="text-muted text-sm">Clique em qualquer botão de "Agendar" e fale diretamente connosco pelo WhatsApp.</p>
+                </div>
+                <div class="feature-card delay-300">
+                    <div class="feature-icon" style="font-size: 24px; font-weight: bold;">3</div>
+                    <h3 class="mb-sm text-main">Apareça e relaxe</h3>
+                    <p class="text-muted text-sm">Confirme o horário connosco e nós tratamos do resto.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section mb-lg" aria-label="Perguntas Frequentes">
+            <h2 class="faq-title font-display animate-on-scroll">Perguntas Frequentes</h2>
+            
+            <article class="faq-item animate-on-scroll delay-100">
+                <header class="faq-header">
+                    <h3 class="faq-question">Preciso agendar horário?</h3>
+                    <div class="faq-icon" aria-hidden="true">▼</div>
+                </header>
+                <div class="faq-answer">
+                    Sim, valorizamos o seu tempo. Atendemos prioritariamente com hora marcada para garantir que você tenha nossa total atenção durante todo o seu ritual de cuidado.
+                </div>
+            </article>
+            
+            <article class="faq-item animate-on-scroll delay-200">
+                <header class="faq-header">
+                    <h3 class="faq-question">Quais formas de pagamento são aceitas?</h3>
+                    <div class="faq-icon" aria-hidden="true">▼</div>
+                </header>
+                <div class="faq-answer">
+                    Aceitamos Multibanco, MBWay e numerário. Queremos que a sua experiência seja o mais conveniente possível.
+                </div>
+            </article>
+            
+            <article class="faq-item animate-on-scroll delay-300">
+                <header class="faq-header">
+                    <h3 class="faq-question">Quanto tempo dura o Ritual de Toalha Quente?</h3>
+                    <div class="faq-icon" aria-hidden="true">▼</div>
+                </header>
+                <div class="faq-answer">
+                    Aproximadamente 45 minutos. É uma experiência completa que envolve preparação da pele, aplicação da toalha quente com óleos essenciais, massagem facial e o barbear clássico.
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="nav-brand">
+                <img src="imgs/logo.svg" alt="Logo Mr. Marinho">
+                Mr. Marinho
+            </div>
+            <nav class="footer-links" aria-label="Links do Rodapé">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <address class="footer-contact" style="font-style: normal;">
+                Av. Marquês de Pombal, 1420 - Ed. Corporate<br>
+                contato@mrmarinho.com | (00) 0000-0000
+            </address>
+            <div class="text-muted" style="font-size: 12px; margin-top: 16px;">
+                © 2024 Mr. Marinho Barbeiro. Ritual & Tradição.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
